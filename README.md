@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
@@ -64,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+## Greedy
+|  |
+| ------- |
+| [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
 <!---LeetCode Topics End-->
