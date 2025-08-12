@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Karsun07/DSA/tree/master/2195-time-needed-to-buy-tickets) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Karsun07/DSA/tree/master/2195-time-needed-to-buy-tickets) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Simulation
 |  |
 | ------- |
@@ -49,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -57,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Bit Manipulation
 |  |
 | ------- |
