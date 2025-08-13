@@ -2,27 +2,31 @@ class Solution {
     public:
         long long countSubarrays(vector<int>& nums, int minK, int maxK) {
             long long count = 0, left = 0;
-            deque<int> dq_min, dq_max;
+            deque<int> incq,decq;
+           
     
-            for (int i = 0; i < nums.size(); ++i) {
-                if (nums[i] < minK || nums[i] > maxK) {
-                    dq_min.clear();
-                    dq_max.clear();
-                    left = i + 1;
+            for (int  right= 0; right < nums.size(); right++) {
+                if (nums[right] < minK || nums[right] > maxK) {
+                    incq.clear();
+                    decq.clear();
+                    left = right + 1;
                     continue;
                 }
     
-                while (!dq_min.empty() && nums[dq_min.back()] >= nums[i]) dq_min.pop_back();
-                dq_min.push_back(i);
+                while (!incq.empty() && nums[incq.back()] >= nums[right]) incq.pop_back();
+                incq.push_back(right);
     
-                while (!dq_max.empty() && nums[dq_max.back()] <= nums[i]) dq_max.pop_back();
-                dq_max.push_back(i);
+                while (!decq.empty() && nums[decq.back()] <= nums[right]) decq.pop_back();
+                decq.push_back(right);
     
-                if (nums[dq_min.front()] == minK && nums[dq_max.front()] == maxK) {
-                    int start = min(dq_min.front(), dq_max.front());
+                if (nums[incq.front()] == minK && nums[decq.front()] == maxK) {
+                    int start = min(incq.front(), decq.front());
+                    // left se aage minK aur max k ke bich ki values hai
+                // start wo point hai jaha pe hame dono mink aur maxk ek subarray me mil gaye as minimum and maximum respectively
                     count += (start - left + 1);
                 }
             }
             return count;
         }
     };
+     
