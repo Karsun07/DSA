@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 ## Prefix Sum
 |  |
@@ -122,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
