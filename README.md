@@ -6,11 +6,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
@@ -127,5 +129,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
