@@ -1,43 +1,14 @@
 class Solution {
 public:
-    int winner(vector<bool>& person, int n, int index, int person_left, int k) {
-        if (person_left == 1) {
-            for (int i = 0; i < n; i++) {
-                if (person[i] == 0) {
-                    return i;
-                }
-            }
+    int winner(int n, int k) {
+        if (n == 1) {
+            return 0;
         }
-
-        int kill = (k - 1) % person_left;  
-
-        
-        while (kill > 0) {
-            index = (index + 1) % n;
-            if (person[index] == 0) {
-                kill--;
-            }
-        }
-
-        
-        while (person[index] == 1) {
-            index = (index + 1) % n;
-        }
-
-        person[index] = 1;  
-
-       
-        index = (index + 1) % n;
-        while (person[index] == 1) {
-            index = (index + 1) % n;
-        }
-
-        return winner(person, n, index, person_left - 1, k);
+        int m = winner(n - 1, k);
+        return (m + k) % n;
     }
 
     int findTheWinner(int n, int k) {
-        vector<bool> person(n, 0);
-        int person_left = n;
-        return winner(person, n, 0, n, k) + 1;
+        return winner(n, k) + 1;  
     }
 };
