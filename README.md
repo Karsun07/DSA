@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
@@ -143,4 +145,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Karsun07/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
