@@ -1,12 +1,7 @@
 class Solution {
 public:
     
-    int mindiff(const vector<int>& v, int index) {
-        if (index == v.size() - 1) return INT_MAX; 
-
-        int diff = v[index + 1] - v[index];
-        return min(diff, mindiff(v, index + 1));
-    }
+   
 
     
     void inorder(TreeNode* root, vector<int>& ans) {
@@ -19,6 +14,11 @@ public:
     int minDiffInBST(TreeNode* root) {
         vector<int> v;
         inorder(root, v);
-        return mindiff(v, 0);
+        int ans=INT_MAX;
+        for(int i=0;i<v.size()-1;i++){
+            int diff=v[i+1]-v[i];
+            ans=min(ans,diff);
+        }
+        return ans;
     }
 };
