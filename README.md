@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Dynamic Programming
 |  |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0225-implement-stack-using-queues](https://github.com/Karsun07/DSA/tree/master/0225-implement-stack-using-queues) |
+| [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
 ## Array
 |  |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
 ## Queue
 |  |
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
+| [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 ## Data Stream
 |  |
