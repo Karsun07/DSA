@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
+| [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/Karsun07/DSA/tree/master/0164-maximum-gap) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
@@ -227,4 +228,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Karsun07/DSA/tree/master/0021-merge-two-sorted-lists) |
+| [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
