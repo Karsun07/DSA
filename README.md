@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
+| [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/Karsun07/DSA/tree/master/1127-last-stone-weight) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
