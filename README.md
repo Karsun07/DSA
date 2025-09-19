@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
+| [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Karsun07/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Karsun07/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Karsun07/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0969-number-of-recent-calls](https://github.com/Karsun07/DSA/tree/master/0969-number-of-recent-calls) |
+| [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 ## Sliding Window
 |  |
 | ------- |
@@ -179,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Math
 |  |
@@ -327,4 +331,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Karsun07/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
+## Matrix
+|  |
+| ------- |
+| [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 <!---LeetCode Topics End-->
