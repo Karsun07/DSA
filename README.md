@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -223,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Karsun07/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
+| [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 ## Combinatorics
 |  |
 | ------- |
@@ -238,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Karsun07/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Karsun07/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -251,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Karsun07/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Karsun07/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -285,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Karsun07/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Karsun07/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
