@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
+| [0222-count-complete-tree-nodes](https://github.com/Karsun07/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 ## Prefix Sum
 |  |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Karsun07/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Karsun07/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Karsun07/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Karsun07/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -295,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Karsun07/DSA/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Karsun07/DSA/tree/master/0199-binary-tree-right-side-view) |
+| [0222-count-complete-tree-nodes](https://github.com/Karsun07/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
