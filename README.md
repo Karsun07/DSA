@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Karsun07/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Karsun07/DSA/tree/master/0713-subarray-product-less-than-k) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
+| [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0164-maximum-gap](https://github.com/Karsun07/DSA/tree/master/0164-maximum-gap) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Karsun07/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
@@ -307,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/Karsun07/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [0713-subarray-product-less-than-k](https://github.com/Karsun07/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -365,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/Karsun07/DSA/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
+| [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Divide and Conquer
 |  |
