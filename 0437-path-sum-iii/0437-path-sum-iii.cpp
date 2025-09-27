@@ -11,24 +11,29 @@
  */
 class Solution {
 public:
-    void fun(TreeNode* root, vector<int> temp, int target, int &count) {
-        if (!root) return;   
-        temp.push_back(root->val);
-        long long sum = 0;
-        for (int i = temp.size() - 1; i >= 0; i--) {
-            sum += temp[i];
-            if (sum == target) count++;
-        }
-
-        fun(root->left, temp, target, count);
-        fun(root->right, temp, target, count);
-        
-    }
-
     int pathSum(TreeNode* root, int targetSum) {
-        vector<int> temp;
+        unordered_map<long long, int> prefix;
+        prefix[0] = 1; 
+        return dfs(root, 0, targetSum, prefix);
+    }
+private:
+    int dfs(TreeNode* node, long long currSum, int target,
+    unordered_map<long long, int>& prefix) {
+        if (!node) return 0;
+    
+        currSum += node->val;
+    
         int count = 0;
-        fun(root, temp, targetSum, count);
+        if (prefix.count(currSum - target)) {
+            count += prefix[currSum - target];
+        }
+    
+        prefix[currSum]++;
+        
+        count += dfs(node->left, currSum, target, prefix);
+        count += dfs(node->right, currSum, target, prefix);
+        
+        prefix[currSum]--;
         return count;
     }
 };
