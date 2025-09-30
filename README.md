@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Karsun07/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Karsun07/DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Karsun07/DSA/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Karsun07/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Karsun07/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Karsun07/DSA/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Karsun07/DSA/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Karsun07/DSA/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Heap (Priority Queue)
 |  |
