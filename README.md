@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Karsun07/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Karsun07/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
+| [2481-strictly-palindromic-number](https://github.com/Karsun07/DSA/tree/master/2481-strictly-palindromic-number) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Karsun07/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Karsun07/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
@@ -428,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/Karsun07/DSA/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
+| [2481-strictly-palindromic-number](https://github.com/Karsun07/DSA/tree/master/2481-strictly-palindromic-number) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Divide and Conquer
 |  |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Brainteaser
 |  |
 | ------- |
+| [2481-strictly-palindromic-number](https://github.com/Karsun07/DSA/tree/master/2481-strictly-palindromic-number) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
 ## Game Theory
 |  |
