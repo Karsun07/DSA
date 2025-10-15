@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Karsun07/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Karsun07/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Karsun07/DSA/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
 ## Monotonic Stack
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
 ## Binary Tree
 |  |
