@@ -9,24 +9,30 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
-    TreeNode* bst(vector<int>& arr, int& i, int lower, int upper) {
-        if (i == arr.size() || arr[i] < lower || arr[i] > upper) {
-            return NULL;
+    int n;
+    int maxi(vector<int>& preorder, int x, int start, int end) {
+        for (int i = start + 1; i <= end; i++) {
+            if (preorder[i] > x) return i;
         }
+        return end + 1;  
+    }
 
+    TreeNode* fun(vector<int>& preorder, int start, int end) {
+        if (start > end) return NULL;
         
-        TreeNode* root = new TreeNode(arr[i++]);
+        TreeNode* root = new TreeNode(preorder[start]);
+        int idx = maxi(preorder, preorder[start], start, end);
 
-        root->left = bst(arr, i, lower, root->val);
-        root->right = bst(arr, i, root->val, upper);
-
+        root->left = fun(preorder, start + 1, idx - 1);
+        root->right = fun(preorder, idx, end);
         return root;
     }
 
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        int i=0;
-        return bst(preorder, i, INT_MIN, INT_MAX);
+        n = preorder.size();
+        return fun(preorder, 0, n - 1);
     }
 };
