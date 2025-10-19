@@ -12,27 +12,19 @@
 
 class Solution {
 public:
-    int n;
-    int maxi(vector<int>& preorder, int x, int start, int end) {
-        for (int i = start + 1; i <= end; i++) {
-            if (preorder[i] > x) return i;
-        }
-        return end + 1;  
-    }
-
-    TreeNode* fun(vector<int>& preorder, int start, int end) {
-        if (start > end) return NULL;
-        
-        TreeNode* root = new TreeNode(preorder[start]);
-        int idx = maxi(preorder, preorder[start], start, end);
-
-        root->left = fun(preorder, start + 1, idx - 1);
-        root->right = fun(preorder, idx, end);
+    int i;
+    TreeNode* fun(vector<int>&arr,int lower,int upper){
+        if(i==arr.size()||arr[i]<lower || arr[i]>upper) return NULL;
+        TreeNode* root=new TreeNode(arr[i]);
+        i++;
+        root->left=fun(arr,lower,root->val);
+        root->right=fun(arr,root->val,upper);
         return root;
     }
-
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        n = preorder.size();
-        return fun(preorder, 0, n - 1);
+        i=0;
+        return fun(preorder,INT_MIN,INT_MAX);
+
+        
     }
 };
