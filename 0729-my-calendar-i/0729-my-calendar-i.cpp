@@ -6,9 +6,9 @@ public:
     }
     
     bool book(int startTime, int endTime) {
-        for(auto it=arr.begin();it<arr.end();it++){
-            int low=it->first;
-            int high=it->second;
+        for(auto &it:arr){
+            int low=it.first;
+            int high=it.second;
             if(startTime<high && endTime>low) return 0;
         }
         arr.push_back(make_pair(startTime,endTime));
