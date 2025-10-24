@@ -1,19 +1,23 @@
 class MyCalendar {
 public:
-    map<int,int>intervals;
+    vector<pair<int,int>>bookings;
+
     MyCalendar() {
         
     }
     
     bool book(int startTime, int endTime) {
-        auto next=intervals.lower_bound(startTime);
-        if(next!=intervals.end() && next->first<endTime) return 0;
-    if(next!=intervals.begin() && prev(next)->second>startTime) return 0 ;
-    
-        intervals[startTime]=endTime; 
+        for(auto &it:bookings){
+            if(max(startTime,it.first)<min(endTime,it.second)){
+                return 0;
+            }
+        }
+
+
+
+        bookings.push_back(make_pair(startTime,endTime));
         return 1;
-        
-        
+       
     }
 };
 
