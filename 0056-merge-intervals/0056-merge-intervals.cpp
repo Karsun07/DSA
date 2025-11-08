@@ -1,41 +1,31 @@
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& inter) {
-        int n = inter.size();
-        if (n < 2) return inter;
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        if (intervals.size() < 2) return intervals;
+
+       
+        sort(intervals.begin(), intervals.end());
 
         
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> p;
+        vector<vector<int>> merged;
+        merged.push_back(intervals[0]);
 
-        for (int i = 0; i < n; i++) {
-            p.push({inter[i][0], inter[i][1]});
-        }
+        for (int i = 1; i < intervals.size(); i++) {
+            
+            int start = intervals[i][0];
+            int end = intervals[i][1];
+            
+            int& lastEnd = merged.back()[1];
 
-        vector<vector<int>> ans;
-
-        while (p.size() > 1) {
-            auto a = p.top(); p.pop();
-            auto b = p.top(); p.pop();
-
-            int x1 = a.first, y1 = a.second;
-            int x2 = b.first, y2 = b.second;
-
-            if (y1 >= x2) {
-               
-                p.push({min(x1, x2), max(y1, y2)});
-            } else {
+            if (start <= lastEnd) {
                 
-                ans.push_back({x1, y1});
-                p.push({x2, y2});
+                lastEnd = max(lastEnd, end);
+            } else {
+               
+                merged.push_back(intervals[i]);
             }
         }
 
-      
-        if (!p.empty()) {
-            auto last = p.top();
-            ans.push_back({last.first, last.second});
-        }
-
-        return ans;
+        return merged;
     }
 };
