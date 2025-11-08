@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Karsun07/DSA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Karsun07/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/Karsun07/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Karsun07/DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Karsun07/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/Karsun07/DSA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Karsun07/DSA/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/Karsun07/DSA/tree/master/0164-maximum-gap) |
