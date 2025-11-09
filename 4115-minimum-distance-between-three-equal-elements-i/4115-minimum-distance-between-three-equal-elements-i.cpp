@@ -8,7 +8,7 @@ public:
        for(int i=0;i<n;i++){
           mp[nums[i]].push_back(i);
        }
-       for(auto it:mp){
+       for(auto &it:mp){
           auto &arr=it.second;
           int m=arr.size();
           if(m>=3){
