@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
+| [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Karsun07/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/Karsun07/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -253,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Karsun07/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Karsun07/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Karsun07/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
