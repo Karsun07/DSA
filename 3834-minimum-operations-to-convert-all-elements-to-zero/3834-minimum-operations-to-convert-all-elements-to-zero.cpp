@@ -1,16 +1,19 @@
 class Solution {
 public:
     int minOperations(vector<int>& nums) {
-        int arr[100002] = {0};
-        int ans = 0, t = 1;
-        for(int i = 0; i < nums.size(); i++){
-            while(t > 0 && arr[t-1] > nums[i]) t--;
-            if( arr[t-1] < nums[i]){
-                arr[t] = nums[i];
-                t++;
-                ans++;
+        vector<int> stack;
+        int res = 0;
+        for (int num : nums) {
+            while (!stack.empty() && stack.back() > num)
+                stack.pop_back();
+            
+            if (num == 0)
+                continue;
+            if (stack.empty() || stack.back() < num) {
+                res++;
+                stack.push_back(num);
             }
         }
-        return ans;
+        return res;
     }
 };
