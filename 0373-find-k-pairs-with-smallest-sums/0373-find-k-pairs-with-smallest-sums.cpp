@@ -1,24 +1,27 @@
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
-        
-        vector<vector<int>>ans;
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>p;
-        for(int num:nums1){
-            p.push({num+nums2[0],0});
-        }
-        int n=nums2.size();
-        while(!p.empty()&&k--){
-            auto x=p.top();
-            int sum=x.first;
-            int pos2=x.second;
-            p.pop();
-            ans.push_back({sum-nums2[pos2],nums2[pos2]});
-            if(pos2<n-1){
-                p.push({sum+nums2[pos2+1]-nums2[pos2],pos2+1});
-            }
 
+        vector<vector<int>>ans;
+        priority_queue<pair<int,pair<int,int>>>p;
+        for(int i=0;i<nums1.size();i++){//sum,num[i],num[j]
+            for(int j=0;j<nums2.size();j++){
+                int sum=nums1[i]+nums2[j];
+                if(p.size()<k) p.push({sum,{nums1[i],nums2[j]}});
+                else{
+                    if(sum<p.top().first){
+                        p.pop();
+                        p.push({sum,{nums1[i],nums2[j]}});
+                    }
+                    else break;
+                }
+            }
+        }
+        while(!p.empty()){
+            ans.push_back({p.top().second.first,p.top().second.second});
+            p.pop();
         }
         return ans;
+        
     }
 };
