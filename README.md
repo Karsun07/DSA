@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Karsun07/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Karsun07/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Karsun07/DSA/tree/master/2195-time-needed-to-buy-tickets) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Karsun07/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Karsun07/DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Karsun07/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Design
