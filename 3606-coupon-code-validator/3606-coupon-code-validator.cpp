@@ -8,12 +8,12 @@ public:
     mp["pharmacy"] = 3;
     mp["restaurant"] = 4;
 
-    
+    //first sort by business
     if (mp[a.second] != mp[b.second]) {
         return mp[a.second] < mp[b.second];
     }
 
-  
+    //then sort lexicographically the code
     return a.first < b.first;
 }
 
