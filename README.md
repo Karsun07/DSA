@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Karsun07/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Karsun07/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3136-valid-word](https://github.com/Karsun07/DSA/tree/master/3136-valid-word) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Karsun07/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2176-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2176-parallel-courses-iii) |
 ## Stack
 |  |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 | [1925-count-square-sum-triples](https://github.com/Karsun07/DSA/tree/master/1925-count-square-sum-triples) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Karsun07/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Karsun07/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2288-count-operations-to-obtain-zero](https://github.com/Karsun07/DSA/tree/master/2288-count-operations-to-obtain-zero) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Karsun07/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2481-strictly-palindromic-number](https://github.com/Karsun07/DSA/tree/master/2481-strictly-palindromic-number) |
