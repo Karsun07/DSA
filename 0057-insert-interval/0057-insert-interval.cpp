@@ -1,39 +1,30 @@
 class Solution {
 public:
-    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> p;
-    vector<vector<int>> ans;
-
-    void merge() {
-        while (p.size() > 1) {
-            auto a = p.top(); p.pop();
-            auto b = p.top(); p.pop();
-
-            int x1 = a.first, y1 = a.second;
-            int x2 = b.first, y2 = b.second;
-
-            if (y1 >= x2) {
-                p.push({x1, max(y1, y2)});
-            } else {
-                ans.push_back({x1, y1});
-                p.push(b);
-            }
-        }
-
-        if (!p.empty()) {
-            auto last = p.top();
-            ans.push_back({last.first, last.second});
-        }
-    }
-
     vector<vector<int>> insert(vector<vector<int>>& inter, vector<int>& newInterval) {
-        
+        int i = 0;
+        int n = inter.size();
+        vector<vector<int>> ans;
 
-        for(int i=0;i<inter.size();i++) {
-            p.push({inter[i][0], inter[i][1]});
+   
+        while (i < n && inter[i][1] < newInterval[0]) {
+            ans.push_back(inter[i]);
+            i++;
         }
-        p.push({newInterval[0], newInterval[1]});
 
-        merge();
+       
+        while (i < n && inter[i][0] <= newInterval[1]) {
+            newInterval[0] = min(newInterval[0], inter[i][0]);
+            newInterval[1] = max(newInterval[1], inter[i][1]);
+            i++;
+        }
+        ans.push_back(newInterval);
+
+      
+        while (i < n) {
+            ans.push_back(inter[i]);
+            i++;
+        }
+
         return ans;
     }
 };
