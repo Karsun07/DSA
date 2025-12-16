@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Karsun07/DSA/tree/master/0713-subarray-product-less-than-k) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Karsun07/DSA/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Karsun07/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Karsun07/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Karsun07/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Karsun07/DSA/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
@@ -316,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/Karsun07/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
@@ -548,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Karsun07/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
+| [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Karsun07/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [3583-count-special-triplets](https://github.com/Karsun07/DSA/tree/master/3583-count-special-triplets) |
