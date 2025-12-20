@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/Karsun07/DSA/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Karsun07/DSA/tree/master/0731-my-calendar-ii) |
 | [0830-largest-triangle-area](https://github.com/Karsun07/DSA/tree/master/0830-largest-triangle-area) |
+| [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1014-k-closest-points-to-origin](https://github.com/Karsun07/DSA/tree/master/1014-k-closest-points-to-origin) |
