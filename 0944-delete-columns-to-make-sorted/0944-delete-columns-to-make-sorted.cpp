@@ -6,7 +6,7 @@ public:
         int wrong=0;
         for(int j=0;j<cols;j++){
             for(int i=0;i<rows-1;i++){
-                if(strs[i][j]-'0'>strs[i+1][j]-'0'){
+                if(strs[i][j]>strs[i+1][j]){
                     wrong++;
                     break;
                 }
