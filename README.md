@@ -487,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/Karsun07/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/Karsun07/DSA/tree/master/1092-maximum-difference-between-node-and-ancestor) |
+| [1192-critical-connections-in-a-network](https://github.com/Karsun07/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 ## Breadth-First Search
 |  |
@@ -676,9 +677,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Karsun07/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [2176-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2176-parallel-courses-iii) |
 ## Topological Sort
 |  |
 | ------- |
 | [2176-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2176-parallel-courses-iii) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Karsun07/DSA/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
