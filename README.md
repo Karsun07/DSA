@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1957-delete-characters-to-make-fancy-string](https://github.com/Karsun07/DSA/tree/master/1957-delete-characters-to-make-fancy-string) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Karsun07/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Karsun07/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/Karsun07/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3136-valid-word](https://github.com/Karsun07/DSA/tree/master/3136-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/Karsun07/DSA/tree/master/0731-my-calendar-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Karsun07/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/Karsun07/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2625-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2625-increment-submatrices-by-one) |
 ## Greedy
 |  |
