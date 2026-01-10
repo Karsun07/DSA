@@ -1,32 +1,27 @@
 class Solution {
 public:
-    bool isBipartite(vector<vector<int>>& adj) {
-        int v=adj.size();
-        vector<int>color(v,-1);
-        queue<int>q;
-
-        for(int i=0;i<v;i++){
-            if(color[i]==-1){
-                color[i]=0;
-                q.push(i);
-
-                while(!q.empty()){
-                    int node= q.front();
-                    q.pop();
-
-                    for(int j=0;j<adj[node].size();j++){
-                        int nb=adj[node][j];
-                        if(color[nb]==-1){
-                            q.push(nb);
-                            color[nb]= 1-color[node];
-                        }
-                        
-                        else if(color[nb]==color[node]) return false;
-                    }
-                }
-
+    bool dfs(int node,int c,vector<vector<int>>&adj,vector<int>&color){
+        color[node]=c;
+        for(int j=0;j<adj[node].size();j++){
+            int nb=adj[node][j];
+            if(color[nb]==-1){
+                if(!dfs(nb,(color[node]+1)%2,adj,color)) return 0;
+            }
+            else{
+                if(color[nb]==color[node]) return 0;
             }
         }
-        return true;
+        return 1;
+    }
+    bool isBipartite(vector<vector<int>>& adj) {
+       int V=adj.size();
+       vector<int>color(V,-1);
+       for(int i=0;i<V;i++){
+        if(color[i]==-1){
+            if(!dfs(i,0,adj,color)) return 0;
+        }
+       }
+       return 1;
+
     }
 };
