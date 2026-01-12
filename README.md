@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
+| [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Karsun07/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/Karsun07/DSA/tree/master/0729-my-calendar-i) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
+| [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Karsun07/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0669-trim-a-binary-search-tree) |
+| [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Karsun07/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Karsun07/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -495,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0669-trim-a-binary-search-tree) |
+| [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/Karsun07/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
@@ -521,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/Karsun07/DSA/tree/master/0226-invert-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
 | [0797-all-paths-from-source-to-target](https://github.com/Karsun07/DSA/tree/master/0797-all-paths-from-source-to-target) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
