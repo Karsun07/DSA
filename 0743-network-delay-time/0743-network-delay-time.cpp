@@ -10,35 +10,30 @@ public:
             adj[u].push_back({v, w});
         }
 
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
         vector<int> dist(n, INT_MAX);
+        dist[k-1] = 0; 
 
-        dist[k-1] = 0;             
-        pq.push({0, k-1});
+        int x = n - 1;
+        while(x--) {
+            bool change = 0;
+            for(auto &it : times) {
+                int u = it[0] - 1;   
+                int v = it[1] - 1;   
+                int wt = it[2];
 
-        while(!pq.empty()){
-            auto [d, node] = pq.top();
-            pq.pop();
-
-            if(d > dist[node]) continue;
-
-            for(auto &edge : adj[node]){
-                int nb = edge.first;
-                int wt = edge.second;
-
-                if(dist[nb] > dist[node] + wt){
-                    dist[nb] = dist[node] + wt;
-                    pq.push({dist[nb], nb});
+                if(dist[u] != INT_MAX && dist[u] + wt < dist[v]) {
+                    change = 1;
+                    dist[v] = dist[u] + wt;
                 }
             }
+            if(!change) break;
         }
 
-        int total = 0;
-        for(int i = 0; i < n; i++){
-            if(dist[i] == INT_MAX) return -1;  
-            total = max(total, dist[i]);
+        int res = 0;
+        for (int i = 0; i < n; ++i) {      
+            if (dist[i] == INT_MAX) return -1;  
+            res = max(res, dist[i]);
         }
-
-        return total;
+        return res;
     }
 };
