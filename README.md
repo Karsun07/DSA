@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1479-construct-target-array-with-multiple-sums](https://github.com/Karsun07/DSA/tree/master/1479-construct-target-array-with-multiple-sums) |
 | [1514-path-with-maximum-probability](https://github.com/Karsun07/DSA/tree/master/1514-path-with-maximum-probability) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Karsun07/DSA/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1762-furthest-building-you-can-reach](https://github.com/Karsun07/DSA/tree/master/1762-furthest-building-you-can-reach) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1479-construct-target-array-with-multiple-sums](https://github.com/Karsun07/DSA/tree/master/1479-construct-target-array-with-multiple-sums) |
 | [1514-path-with-maximum-probability](https://github.com/Karsun07/DSA/tree/master/1514-path-with-maximum-probability) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Karsun07/DSA/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/Karsun07/DSA/tree/master/1762-furthest-building-you-can-reach) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
 | [1834-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1834-single-threaded-cpu) |
@@ -527,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1192-critical-connections-in-a-network](https://github.com/Karsun07/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/Karsun07/DSA/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -557,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Karsun07/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Karsun07/DSA/tree/master/0994-rotting-oranges) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/Karsun07/DSA/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -576,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/Karsun07/DSA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
@@ -725,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Karsun07/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/Karsun07/DSA/tree/master/0994-rotting-oranges) |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2625-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 ## Segment Tree
@@ -775,4 +781,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1514-path-with-maximum-probability](https://github.com/Karsun07/DSA/tree/master/1514-path-with-maximum-probability) |
+## Union-Find
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
