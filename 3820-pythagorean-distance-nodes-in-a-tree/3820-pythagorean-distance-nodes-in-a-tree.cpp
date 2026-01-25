@@ -1,9 +1,8 @@
 class Solution {
 public:
     vector<int>bfs(int start,vector<vector<int>>&adj){
-        vector<int>dist(adj.size(),0);
-        vector<bool>visited(adj.size(),0);
-        visited[start]=1;
+        vector<int>dist(adj.size(),-1);
+        dist[start]=0;
         queue<int>q;
         q.push(start);
         while(!q.empty()){
@@ -13,8 +12,7 @@ public:
                 q.pop();
                 for(int j=0;j<adj[node].size();j++){
                     int nb=adj[node][j];
-                    if(!visited[nb]){
-                        visited[nb]=1;
+                    if(dist[nb]==-1){
                         dist[nb]=dist[node]+1;
                         q.push(nb);
                     }
