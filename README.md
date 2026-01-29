@@ -517,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0669-trim-a-binary-search-tree) |
+| [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
@@ -553,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Karsun07/DSA/tree/master/0547-number-of-provinces) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
@@ -775,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Karsun07/DSA/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/Karsun07/DSA/tree/master/0310-minimum-height-trees) |
 | [0547-number-of-provinces](https://github.com/Karsun07/DSA/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/Karsun07/DSA/tree/master/0802-find-eventual-safe-states) |
@@ -790,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Karsun07/DSA/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Karsun07/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Minimum Spanning Tree
