@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Karsun07/DSA/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Karsun07/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0713-subarray-product-less-than-k](https://github.com/Karsun07/DSA/tree/master/0713-subarray-product-less-than-k) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0729-my-calendar-i](https://github.com/Karsun07/DSA/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Karsun07/DSA/tree/master/0731-my-calendar-ii) |
 | [0830-largest-triangle-area](https://github.com/Karsun07/DSA/tree/master/0830-largest-triangle-area) |
@@ -338,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/Karsun07/DSA/tree/master/0630-course-schedule-iii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1014-k-closest-points-to-origin](https://github.com/Karsun07/DSA/tree/master/1014-k-closest-points-to-origin) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Karsun07/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Karsun07/DSA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Karsun07/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -519,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0669-trim-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0669-trim-a-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -556,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
 | [0690-employee-importance](https://github.com/Karsun07/DSA/tree/master/0690-employee-importance) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/Karsun07/DSA/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -794,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/Karsun07/DSA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Karsun07/DSA/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [1584-min-cost-to-connect-all-points](https://github.com/Karsun07/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Minimum Spanning Tree
