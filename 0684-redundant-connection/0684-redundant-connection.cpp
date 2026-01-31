@@ -1,27 +1,42 @@
 class Solution {
 public:
-    bool dfs(int node, int parent, vector<int> adj[], vector<bool>& vis) {
-        vis[node] = true;
-        for (auto adjnode : adj[node]) {
-            if (!vis[adjnode]) {
-                if (dfs(adjnode, node, adj, vis))
-                    return true;
-            } else if (adjnode != parent)
-                return true;
+    bool Union(int a,int b, vector<int>&parent,vector<int>&rank){
+        int x = findparent(a,parent);
+        int y = findparent(b,parent);
+
+        if(x == y){
+            return true;
         }
+
+        if(rank[x] > rank[y]){
+            parent[y] = x;
+        }
+        else if(rank[x]<rank[y]){
+            parent[x] = y;
+        }
+        else{
+            parent[y] = x;
+            rank[x]++;
+        }
+
         return false;
+    }
+
+    int findparent(int a,vector<int>&parent){
+        if(parent[a] == a)return a;
+        else return parent[a] = findparent(parent[a],parent);
     }
 
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
         int n = edges.size();
-        vector<int> adj[n + 1];
-        for (int i = 0; i < n; i++) {
-            adj[edges[i][0]].push_back(edges[i][1]);
-            adj[edges[i][1]].push_back(edges[i][0]);
-            vector<bool> vis(n + 1, false);
-            if (dfs(edges[i][0], -1, adj, vis)) {
-                return edges[i];
-            }
+        vector<int>rank(n+1,0);
+        vector<int>parent(n+1);
+        for(int i=1;i<=n;i++){
+            parent[i] = i;
+        }
+
+        for(auto it:edges){
+            if(Union(it[0],it[1],parent,rank))return it;
         }
         return {};
     }
