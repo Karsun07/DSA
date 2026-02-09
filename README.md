@@ -309,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0630-course-schedule-iii](https://github.com/Karsun07/DSA/tree/master/0630-course-schedule-iii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Karsun07/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-maximum-69-number](https://github.com/Karsun07/DSA/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Karsun07/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -502,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/Karsun07/DSA/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/Karsun07/DSA/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -550,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1192-critical-connections-in-a-network](https://github.com/Karsun07/DSA/tree/master/1192-critical-connections-in-a-network) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1376-time-needed-to-inform-all-employees](https://github.com/Karsun07/DSA/tree/master/1376-time-needed-to-inform-all-employees) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
@@ -606,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/Karsun07/DSA/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1004-max-consecutive-ones-iii](https://github.com/Karsun07/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -651,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1092-maximum-difference-between-node-and-ancestor](https://github.com/Karsun07/DSA/tree/master/1092-maximum-difference-between-node-and-ancestor) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -709,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Karsun07/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
 | [1014-k-closest-points-to-origin](https://github.com/Karsun07/DSA/tree/master/1014-k-closest-points-to-origin) |
+| [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 ## Merge Sort
 |  |
 | ------- |
