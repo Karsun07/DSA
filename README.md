@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
+| [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0729-my-calendar-i](https://github.com/Karsun07/DSA/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Karsun07/DSA/tree/master/0731-my-calendar-ii) |
+| [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0830-largest-triangle-area](https://github.com/Karsun07/DSA/tree/master/0830-largest-triangle-area) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
