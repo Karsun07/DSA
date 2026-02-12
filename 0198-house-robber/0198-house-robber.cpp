@@ -5,12 +5,12 @@ public:
        if(n==1) return nums[0];
        if(n==2) return max(nums[0],nums[1]);
        if(nums[0]>nums[1]) nums[1]=nums[0];
-       int ans=INT_MIN;
+      
        for(int i=2;i<n;i++){
           nums[i]=max(nums[i-2]+nums[i],nums[i-1]);
-          ans=max(ans,nums[i]);
+         
        }
-       return ans;
+       return nums[n-1];
        
 
     }
