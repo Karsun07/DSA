@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Karsun07/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Karsun07/DSA/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/Karsun07/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Karsun07/DSA/tree/master/0213-house-robber-ii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Karsun07/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Karsun07/DSA/tree/master/0057-insert-interval) |
+| [0063-unique-paths-ii](https://github.com/Karsun07/DSA/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/Karsun07/DSA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Karsun07/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -767,6 +769,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/Karsun07/DSA/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/Karsun07/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Karsun07/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
