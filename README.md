@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1814-jump-game-vi](https://github.com/Karsun07/DSA/tree/master/1814-jump-game-vi) |
 | [2050-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2050-parallel-courses-iii) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/Karsun07/DSA/tree/master/1127-last-stone-weight) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1293-three-consecutive-odds](https://github.com/Karsun07/DSA/tree/master/1293-three-consecutive-odds) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Karsun07/DSA/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -778,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Karsun07/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
 | [0994-rotting-oranges](https://github.com/Karsun07/DSA/tree/master/0994-rotting-oranges) |
+| [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
 | [2625-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2625-increment-submatrices-by-one) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
