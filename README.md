@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Karsun07/DSA/tree/master/0213-house-robber-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Karsun07/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
+| [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0729-my-calendar-i](https://github.com/Karsun07/DSA/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/Karsun07/DSA/tree/master/0731-my-calendar-ii) |
+| [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0830-largest-triangle-area](https://github.com/Karsun07/DSA/tree/master/0830-largest-triangle-area) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
@@ -781,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Karsun07/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Karsun07/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
+| [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
 | [0994-rotting-oranges](https://github.com/Karsun07/DSA/tree/master/0994-rotting-oranges) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
