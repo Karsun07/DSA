@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
+| [1092-shortest-common-supersequence](https://github.com/Karsun07/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Karsun07/DSA/tree/master/1143-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Karsun07/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/Karsun07/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Karsun07/DSA/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Karsun07/DSA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
