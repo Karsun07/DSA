@@ -25,7 +25,7 @@ public:
         if (n % 2) {
             ll cost = 0;
             for (int i = 1; i < n - 1; i += 2) {
-                cost += max(0LL, (ll)max(nums[i - 1], nums[i + 1]) - nums[i] + 1);
+                cost += max(0, max(nums[i - 1], nums[i + 1]) - nums[i] + 1);
             }
             return cost;
         }
