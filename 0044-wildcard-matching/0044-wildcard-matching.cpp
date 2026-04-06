@@ -16,13 +16,11 @@ public:
 
         if (p[j] == '*') {
             bool ans=false;
-            if (fun(i, j - 1, s, p,dp) || fun(i - 1, j, s, p,dp)) ans=true;
-
-           
+            if (fun(i, j - 1, s, p,dp) || fun(i - 1, j, s, p,dp)) ans=true;     
             return dp[i][j]=ans;
         }
 
-        return false;
+        return dp[i][j]=false;
     }
 
     bool isMatch(string s, string p) {
@@ -30,5 +28,6 @@ public:
         np = p.size();
         vector<vector<int>>dp(ns,vector<int>(np,-1));
         return fun(ns - 1, np - 1, s, p,dp);
+        
     }
 };
