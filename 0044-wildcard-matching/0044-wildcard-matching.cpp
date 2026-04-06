@@ -1,7 +1,6 @@
 class Solution {
 public:
     int ns, np;
-
     bool fun(int i, int j, string &s, string &p,vector<vector<int>>&dp) {
         if (i < 0 && j < 0) return true;
         if (i < 0 && j >= 0) {
@@ -17,9 +16,9 @@ public:
 
         if (p[j] == '*') {
             bool ans=false;
-            if (fun(i, j - 1, s, p,dp)) ans=true;
+            if (fun(i, j - 1, s, p,dp) || fun(i - 1, j, s, p,dp)) ans=true;
 
-            if (fun(i - 1, j, s, p,dp)) ans=true;
+           
             return dp[i][j]=ans;
         }
 
