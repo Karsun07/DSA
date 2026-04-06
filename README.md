@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/Karsun07/DSA/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/Karsun07/DSA/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Karsun07/DSA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Karsun07/DSA/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/Karsun07/DSA/tree/master/0115-distinct-subsequences) |
@@ -46,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Karsun07/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/Karsun07/DSA/tree/master/0032-longest-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/Karsun07/DSA/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Karsun07/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Karsun07/DSA/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/Karsun07/DSA/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
@@ -480,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Karsun07/DSA/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/Karsun07/DSA/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Karsun07/DSA/tree/master/0050-powx-n) |
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0509-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/0509-fibonacci-number) |
