@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Karsun07/DSA/tree/master/0076-minimum-window-substring) |
 | [0091-decode-ways](https://github.com/Karsun07/DSA/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Karsun07/DSA/tree/master/0115-distinct-subsequences) |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Karsun07/DSA/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/Karsun07/DSA/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/Karsun07/DSA/tree/master/0120-triangle) |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Karsun07/DSA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Karsun07/DSA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/Karsun07/DSA/tree/master/0322-coin-change) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/Karsun07/DSA/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/Karsun07/DSA/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/Karsun07/DSA/tree/master/0134-gas-station) |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0164-maximum-gap](https://github.com/Karsun07/DSA/tree/master/0164-maximum-gap) |
 | [0198-house-robber](https://github.com/Karsun07/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
@@ -420,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Karsun07/DSA/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Karsun07/DSA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Karsun07/DSA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0347-top-k-frequent-elements](https://github.com/Karsun07/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Karsun07/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Karsun07/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -495,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
 ## Backtracking
@@ -733,6 +738,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 ## Radix Sort
 |  |
