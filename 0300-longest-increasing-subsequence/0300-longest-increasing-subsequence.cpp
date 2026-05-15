@@ -1,20 +1,23 @@
 class Solution {
 public:
-    int fun(int curr, int prev, vector<int>& nums,vector<vector<int>>&dp) {
-        if (curr == nums.size()) return 0;
-        if(dp[curr][prev+1]!=-1) return dp[curr][prev+1];
-        int notTake = fun(curr + 1, prev, nums,dp);
-        int take = 0;
-        if (prev == -1 || nums[curr] > nums[prev]) {
-            take = 1 + fun(curr + 1, curr, nums,dp);
+    int n;
+    int fun(int i,int prev,vector<int>&nums,vector<vector<int>>&dp){
+        if(i==n){
+            return 0;    
         }
+        if(dp[i][prev+1]!=-1) return dp[i][prev+1];
+        int take=0;
+        if (prev == -1 || nums[i] > nums[prev]) {
+            take = 1 + fun(i + 1, i, nums, dp);
+        }
+        int nottake=fun(i+1,prev,nums,dp);
+        return dp[i][prev+1]=max(take,nottake);
 
-        return dp[curr][prev+1]=max(take, notTake);
     }
-
     int lengthOfLIS(vector<int>& nums) {
-        int n=nums.size();
-        vector<vector<int>>dp(n,vector<int>(n+1,-1));
-        return fun(0, -1, nums,dp);
+        n=nums.size();
+        vector<vector<int>>dp(n+1,vector<int>(n,-1));
+        return fun(0,-1,nums,dp);
+     
     }
 };
