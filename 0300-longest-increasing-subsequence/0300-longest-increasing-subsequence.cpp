@@ -6,11 +6,12 @@ public:
             return 0;    
         }
         if(dp[i][prev+1]!=-1) return dp[i][prev+1];
+        int nottake=fun(i+1,prev,nums,dp);
         int take=0;
         if (prev == -1 || nums[i] > nums[prev]) {
             take = 1 + fun(i + 1, i, nums, dp);
         }
-        int nottake=fun(i+1,prev,nums,dp);
+       
         return dp[i][prev+1]=max(take,nottake);
 
     }
