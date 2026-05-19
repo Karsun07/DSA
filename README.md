@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/Karsun07/DSA/tree/master/1030-smallest-string-starting-from-leaf) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Karsun07/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Karsun07/DSA/tree/master/1143-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Karsun07/DSA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1013-fibonacci-number](https://github.com/Karsun07/DSA/tree/master/1013-fibonacci-number) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Karsun07/DSA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Karsun07/DSA/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1016-subarray-sums-divisible-by-k](https://github.com/Karsun07/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Karsun07/DSA/tree/master/1034-subarrays-with-k-different-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/Karsun07/DSA/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/Karsun07/DSA/tree/master/1127-last-stone-weight) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
@@ -428,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1014-k-closest-points-to-origin](https://github.com/Karsun07/DSA/tree/master/1014-k-closest-points-to-origin) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/Karsun07/DSA/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1834-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1834-single-threaded-cpu) |
 | [1962-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1962-single-threaded-cpu) |
@@ -461,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/Karsun07/DSA/tree/master/1006-vowel-spellchecker) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/Karsun07/DSA/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Karsun07/DSA/tree/master/1034-subarrays-with-k-different-integers) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [1207-delete-nodes-and-return-forest](https://github.com/Karsun07/DSA/tree/master/1207-delete-nodes-and-return-forest) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Karsun07/DSA/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -786,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/Karsun07/DSA/tree/master/0148-sort-list) |
 | [0295-find-median-from-data-stream](https://github.com/Karsun07/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0611-valid-triangle-number](https://github.com/Karsun07/DSA/tree/master/0611-valid-triangle-number) |
+| [1048-longest-string-chain](https://github.com/Karsun07/DSA/tree/master/1048-longest-string-chain) |
 | [2481-strictly-palindromic-number](https://github.com/Karsun07/DSA/tree/master/2481-strictly-palindromic-number) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Divide and Conquer
