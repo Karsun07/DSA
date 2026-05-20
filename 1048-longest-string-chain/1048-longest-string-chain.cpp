@@ -1,12 +1,11 @@
 class Solution {
 public:
-    int dp[1001][1001];
-
     static bool cmp(string &a, string &b) {
         return a.size() < b.size();
     }
 
     bool match(string &a, string &b) {
+
         if (b.size() != a.size() + 1)
             return false;
 
@@ -30,29 +29,25 @@ public:
     }
 
     int longestStrChain(vector<string>& words) {
+        int n = words.size();
 
         sort(words.begin(), words.end(), cmp);
 
-        int n = words.size();
-        for (int j = 0; j <= n; j++) {
-            dp[n][j] = 0;
-        }
-        for (int curr = n - 1; curr >= 0; curr--) {
+        vector<int> dp(n, 1);
 
-            for (int prev = curr - 1; prev >= -1; prev--) {
+        int ans = 1;
 
-                int take = 0;
+        for (int i = 0; i < n; i++) {
 
-                if (prev == -1 || match(words[prev], words[curr])) {
-                    take = 1 + dp[curr + 1][curr + 1];
+            for (int j = 0; j < i; j++) {
+                if (match(words[j], words[i])) {
+                    dp[i] = max(dp[i], dp[j] + 1);
                 }
-
-                int nottake = dp[curr + 1][prev + 1];
-
-                dp[curr][prev + 1] = max(take, nottake);
             }
+
+            ans = max(ans, dp[i]);
         }
 
-        return dp[0][0];
+        return ans;
     }
 };
