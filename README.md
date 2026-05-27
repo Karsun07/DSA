@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Karsun07/DSA/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Karsun07/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/Karsun07/DSA/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3136-valid-word](https://github.com/Karsun07/DSA/tree/master/3136-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
 | [3606-coupon-code-validator](https://github.com/Karsun07/DSA/tree/master/3606-coupon-code-validator) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2161-stock-price-fluctuation](https://github.com/Karsun07/DSA/tree/master/2161-stock-price-fluctuation) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/Karsun07/DSA/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Karsun07/DSA/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3531-count-covered-buildings](https://github.com/Karsun07/DSA/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Karsun07/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
