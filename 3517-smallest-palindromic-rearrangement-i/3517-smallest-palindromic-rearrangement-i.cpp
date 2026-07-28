@@ -17,14 +17,12 @@ public:
                 }
             }
         }
-        ans+=odd;
-        int i=ans.size()-odd.size()-1;
-        while(i>=0){
-            ans+=ans[i];
-            i--;
-        }
+        string rev=ans;
+        reverse(rev.begin(),rev.end());
+        if(odd.size()) return ans+odd+rev;
+        return ans+rev;
         
-        return ans;
+    
         
     }
 };
