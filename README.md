@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/Karsun07/DSA/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Karsun07/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Karsun07/DSA/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3136-valid-word](https://github.com/Karsun07/DSA/tree/master/3136-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/Karsun07/DSA/tree/master/3462-vowels-game-in-a-string) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1762-furthest-building-you-can-reach](https://github.com/Karsun07/DSA/tree/master/1762-furthest-building-you-can-reach) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Karsun07/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Karsun07/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Karsun07/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Data Stream
@@ -458,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1834-single-threaded-cpu) |
 | [1962-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1962-single-threaded-cpu) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Karsun07/DSA/tree/master/3074-apple-redistribution-into-boxes) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Karsun07/DSA/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/Karsun07/DSA/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -495,6 +498,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2161-stock-price-fluctuation](https://github.com/Karsun07/DSA/tree/master/2161-stock-price-fluctuation) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/Karsun07/DSA/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/Karsun07/DSA/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Karsun07/DSA/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Karsun07/DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -792,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Karsun07/DSA/tree/master/1034-subarrays-with-k-different-integers) |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Karsun07/DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3583-count-special-triplets](https://github.com/Karsun07/DSA/tree/master/3583-count-special-triplets) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
