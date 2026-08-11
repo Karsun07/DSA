@@ -1028,4 +1028,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/Karsun07/DSA/tree/master/0523-continuous-subarray-sum) |
+## Concurrency
+|  |
+| ------- |
+| [1114-print-in-order](https://github.com/Karsun07/DSA/tree/master/1114-print-in-order) |
 <!---LeetCode Topics End-->
