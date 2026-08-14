@@ -2,39 +2,59 @@ class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
         vector<int> result;
-        unordered_map<string,int> map;
-        int length = words[0].size();
+        unordered_map<string,int> mp;
+        int n=s.size();
+        for (string & word : words) mp[word]++;
+        
+        
+        int win=words[0].size();
+        
+        vector<int>ans;
+        
 
-        map.clear();
-        for (string & word : words)
-            map[word]++;
+        for(int start=0;start<win;start++){
 
-        for (int offset = 0; offset < length; ++offset) {
-            int size = 0;
-            unordered_map<string,int> seen;
-            for (int i = offset; i + length <= s.size(); i += length) {
-                string sub = s.substr(i, length);
+            int l=start,r=start;
+            int count=0;
+            unordered_map<string,int>mp1;
 
-                auto itr = map.find(sub);
-                if (itr == map.end()) {
-                    seen.clear();
-                    size = 0;
-                    continue;
+            while(r<=n-win){
+                string x=s.substr(r,win);
+                r+=win;
+
+                if(mp.find(x)==mp.end()){
+                    count=0;
+                    l=r;
+                    mp1.clear();
                 }
+                else{
+                    mp1[x]++;
+                    count++;
+                    
+                    while(mp1[x]>mp[x]){
+                        mp1[s.substr(l,win)]--;
+                        
+                        l+=win;
 
-                ++seen[sub];
-                ++size;
-                while (seen[sub] > itr->second) {
-                    string first = s.substr(i - (size - 1) * length, length);
-                    --seen[first];
-                    --size;
+                        count--;
+                    }
+                    if(count==words.size()){
+                       
+                        ans.push_back(l);
+                        mp1[s.substr(l,win)]--;
+                        if(mp1[s.substr(l,win)]==0) mp1.erase(s.substr(l,win));
+                        l+=win;
+                        count--;
+                    }
+                    
                 }
-                
-                if (size == words.size())
-                    result.push_back(i - (size - 1) * length);
-            }
         }
 
-        return result;
+        }
+        return ans;
+
+        
+
+   
     }
 };
