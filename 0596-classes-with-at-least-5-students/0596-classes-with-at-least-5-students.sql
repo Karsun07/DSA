@@ -1,10 +1,7 @@
 # Write your MySQL query statement below
 
-select class 
-from
-(
-select count(student) as stu, class 
-from Courses
+select class
+from courses
 group by class
-) as t
-where t.stu>=5
+having count(distinct student)>=5;
+
