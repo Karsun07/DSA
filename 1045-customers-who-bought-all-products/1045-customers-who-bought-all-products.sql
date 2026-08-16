@@ -1,10 +1,12 @@
 # Write your MySQL query statement below
--- see solution 1 best
-SELECT customer_id
-FROM Customer
-GROUP BY customer_id
-HAVING COUNT(DISTINCT product_key) = 
+select t.customer_id as customer_id
+from
 (
-    SELECT COUNT(*)
-    FROM Product
-);
+select customer_id,count(distinct product_key) as freq
+from Customer
+group by customer_id
+) t
+where t.freq=(
+    select count(*) 
+    from Product
+)
