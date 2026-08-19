@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Karsun07/DSA/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Karsun07/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
+| [0054-spiral-matrix](https://github.com/Karsun07/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Karsun07/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Karsun07/DSA/tree/master/0057-insert-interval) |
@@ -305,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Karsun07/DSA/tree/master/0054-spiral-matrix) |
 | [0987-reveal-cards-in-increasing-order](https://github.com/Karsun07/DSA/tree/master/0987-reveal-cards-in-increasing-order) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/Karsun07/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Karsun07/DSA/tree/master/2195-time-needed-to-buy-tickets) |
@@ -921,6 +923,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Karsun07/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Karsun07/DSA/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/Karsun07/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
