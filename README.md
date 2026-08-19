@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/Karsun07/DSA/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/Karsun07/DSA/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
+| [0048-rotate-image](https://github.com/Karsun07/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Karsun07/DSA/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Karsun07/DSA/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Karsun07/DSA/tree/master/0056-merge-intervals) |
@@ -545,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Karsun07/DSA/tree/master/0007-reverse-integer) |
+| [0048-rotate-image](https://github.com/Karsun07/DSA/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Karsun07/DSA/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Karsun07/DSA/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0070-climbing-stairs) |
@@ -923,6 +925,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Karsun07/DSA/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Karsun07/DSA/tree/master/0054-spiral-matrix) |
 | [0063-unique-paths-ii](https://github.com/Karsun07/DSA/tree/master/0063-unique-paths-ii) |
 | [0130-surrounded-regions](https://github.com/Karsun07/DSA/tree/master/0130-surrounded-regions) |
