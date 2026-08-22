@@ -1,26 +1,26 @@
 class Solution {
-public:
-    
-    int dfs(int node,vector<vector<int>>&adj,vector<bool>&visited,vector<int>&informTime){
-        int ans=0;
-        visited[node]=1;
-        for(int j=0;j<adj[node].size();j++){
-            if(!visited[adj[node][j]]){
-                ans=max(ans,informTime[node]+dfs(adj[node][j],adj,visited,informTime));
-            }
+public: 
+    long long ans=INT_MIN;
+    void dfs(int man,long long cost,vector<vector<int>>&adj,vector<int>&informTime){
+        if(adj[man].empty()){
+            ans=max(ans,cost);
+            return;
         }
-        return ans;
+        for(int &emp:adj[man]){
+            dfs(emp,cost+1LL*informTime[man],adj,informTime);
+        }
     }
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-        int V=n;
-        if(V==1) return 0;
-        vector<vector<int>>adj(V);
-        for(int i=0;i<V;i++){
-            int u=manager[i],v=i;
-            if(u!=-1) adj[u].push_back(v);
+        vector<vector<int>>adj(n);
+        int man=-1;
+        for (int i = 0; i < n; i++) {
+            if (manager[i] != -1) {
+                adj[manager[i]].push_back(i);
+            }
         }
-        vector<bool>visited(V,0);
-        return dfs(headID,adj,visited,informTime);
+
+        dfs(headID, 0, adj, informTime);
+        return ans;
 
     }
 };
