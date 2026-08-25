@@ -11,23 +11,25 @@ public:
 class Solution {
 public:
     int getImportance(vector<Employee*> employees, int id) {
-        unordered_map<int,Employee*>mp;
-        for(auto emp:employees){
-           mp[emp->id]=emp;
+        vector<vector<int>>adj(2000);
+        vector<int>imp(2000);
+        for(auto &it:employees){
+            imp[it->id-1]=it->importance;
+            for(int sub:it->subordinates){
+                adj[it->id-1].push_back(sub-1);
+            }
         }
         queue<int>q;
-        q.push(id);
-        int ans=0;
+        q.push(id-1);
+        int ans=imp[id-1];
         while(!q.empty()){
             int node=q.front();
             q.pop();
-            Employee* e=mp[node];
-            ans+=e->importance;
-            for(int sub:e->subordinates){
-                q.push(sub);
+            for(int nb:adj[node]){
+                ans+=imp[nb];
+                q.push(nb);
             }
         }
         return ans;
-
     }
 };
