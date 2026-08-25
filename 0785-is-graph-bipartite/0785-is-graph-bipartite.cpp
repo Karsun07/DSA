@@ -1,27 +1,45 @@
 class Solution {
 public:
-    bool dfs(int node,int c,vector<vector<int>>&adj,vector<int>&color){
-        color[node]=c;
-        for(int j=0;j<adj[node].size();j++){
-            int nb=adj[node][j];
-            if(color[nb]==-1){
-                if(!dfs(nb,(color[node]+1)%2,adj,color)) return 0;
-            }
-            else{
-                if(color[nb]==color[node]) return 0;
+    bool bfs(int start,vector<int>&color,vector<vector<int>>&adj){
+        
+        queue<int>q;
+        color[start]=0;
+        q.push(start);
+
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+
+            for(int nb:adj[node]){
+                
+                if(color[nb]==-1){
+                    color[nb]=(color[node]+1)%2;
+                    q.push(nb);
+                }
+                else{
+                    if(color[node]==color[nb]){
+                        return false;
+                    }
+                }
+
             }
         }
-        return 1;
+        return true;
+
     }
     bool isBipartite(vector<vector<int>>& adj) {
-       int V=adj.size();
-       vector<int>color(V,-1);
-       for(int i=0;i<V;i++){
-        if(color[i]==-1){
-            if(!dfs(i,0,adj,color)) return 0;
-        }
-       }
-       return 1;
+        int n=adj.size();
+        vector<int>color(n,-1);
 
+        queue<int>q;
+        for(int i=0;i<n;i++){
+            if(color[i]==-1){
+                if(!bfs(i,color,adj)) return false;
+            }
+        }
+        return true;
+        
+
+       
     }
 };
