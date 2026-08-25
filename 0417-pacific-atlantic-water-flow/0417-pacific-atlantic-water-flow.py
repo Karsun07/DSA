@@ -1,64 +1,32 @@
-from collections import deque
-
+from typing import List
 
 class Solution:
 
-    def fun(self, heights, type):
+    def dfs(self, i, j, heights, visited):
+
+        visited[i][j] = True
 
         r = len(heights)
         c = len(heights[0])
 
-        q = deque()
+        directions = [(1,0), (-1,0), (0,1), (0,-1)]
 
-        visited = [[False for _ in range(c)] for _ in range(r)]
+        for dx, dy in directions:
 
-        row = [-1, 1, 0, 0]
-        col = [0, 0, -1, 1]
+            x = i + dx
+            y = j + dy
 
+            if x < 0 or x >= r or y < 0 or y >= c:
+                continue
 
-        # Pacific Ocean
-        if type == 0:
+            if visited[x][y]:
+                continue
 
-            for i in range(r):
-                for j in range(c):
+            # reverse flow condition
+            if heights[x][y] < heights[i][j]:
+                continue
 
-                    if i == 0 or j == 0:
-                        q.append((i,j))
-                        visited[i][j] = True
-
-
-        # Atlantic Ocean
-        else:
-
-            for i in range(r):
-                for j in range(c):
-
-                    if i == r-1 or j == c-1:
-                        q.append((i,j))
-                        visited[i][j] = True
-
-
-
-        while q:
-
-            i,j = q.popleft()
-
-            for k in range(4):
-
-                i1 = i + row[k]
-                j1 = j + col[k]
-
-
-                if (0 <= i1 < r and 
-                    0 <= j1 < c and 
-                    not visited[i1][j1] and 
-                    heights[i1][j1] >= heights[i][j]):
-
-                    visited[i1][j1] = True
-                    q.append((i1,j1))
-
-
-        return visited
+            self.dfs(x, y, heights, visited)
 
 
 
@@ -68,9 +36,28 @@ class Solution:
         c = len(heights[0])
 
 
-        pacific = self.fun(heights, 0)
+        pacific = [[False] * c for _ in range(r)]
+        atlantic = [[False] * c for _ in range(r)]
 
-        atlantic = self.fun(heights, 1)
+
+        # Pacific ocean (top row + left column)
+
+        for j in range(c):
+            self.dfs(0, j, heights, pacific)
+
+        for i in range(r):
+            self.dfs(i, 0, heights, pacific)
+
+
+
+        # Atlantic ocean (bottom row + right column)
+
+        for j in range(c):
+            self.dfs(r-1, j, heights, atlantic)
+
+        for i in range(r):
+            self.dfs(i, c-1, heights, atlantic)
+
 
 
         ans = []
@@ -79,7 +66,7 @@ class Solution:
             for j in range(c):
 
                 if pacific[i][j] and atlantic[i][j]:
-                    ans.append([i,j])
+                    ans.append([i, j])
 
 
         return ans
