@@ -1,33 +1,40 @@
+import heapq
+
 class Solution:
     def networkDelayTime(self, times: list[list[int]], n: int, k: int) -> int:
 
-        # distance array
-        dist = [float('inf')] * (n + 1)
+        adj = [[] for _ in range(n + 1)]
 
-        # source node
+        for u, v, w in times:
+            adj[u].append((v, w))
+
+        dist = [float('inf')] * (n + 1)
         dist[k] = 0
 
-        # relax all edges n-1 times
-        for _ in range(n - 1):
+        pq = [(0, k)]
 
-            change = False
+        while pq:
 
-            for u, v, t in times:
+            curr_dist, node = heapq.heappop(pq)
 
-                if dist[u] != float('inf') and dist[u] + t < dist[v]:
-                    dist[v] = dist[u] + t
-                    change = True
+            if curr_dist > dist[node]:
+                continue
 
-            # optimization: if no update, stop early
-            if not change:
-                break
+            for neighbour, weight in adj[node]:
 
-        # find maximum distance
+                if curr_dist + weight < dist[neighbour]:
+
+                    dist[neighbour] = curr_dist + weight
+
+                    heapq.heappush(
+                        pq,
+                        (dist[neighbour], neighbour)
+                    )
+
         ans = 0
 
         for i in range(1, n + 1):
 
-            # unreachable node
             if dist[i] == float('inf'):
                 return -1
 
