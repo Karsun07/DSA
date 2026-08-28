@@ -22,7 +22,7 @@ public:
         for(int i=0;i<n;i++) parent[i]=i;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(isConnected[i][j] && i!=j){
+                if(isConnected[i][j] && i!=j && parent[i]!=parent[j]){
                     unionbyrank(i,j,parent,rank);
                 }
             }
