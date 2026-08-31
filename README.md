@@ -1122,4 +1122,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/Karsun07/DSA/tree/master/0743-network-delay-time) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Karsun07/DSA/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
