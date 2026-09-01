@@ -13,7 +13,8 @@ class Solution:
 
         ways = self.fun(i+1, s, dp)
 
-        if i+1 < n and 10 <= int(s[i:i+2]) <= 26:
+        if i + 1 < n and (s[i] == '1' or (s[i] == '2' and s[i+1] <= '6')) :
+            
             ways += self.fun(i+2, s, dp)
 
         dp[i] = ways
