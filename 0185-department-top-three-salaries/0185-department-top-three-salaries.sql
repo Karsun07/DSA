@@ -1,8 +1,15 @@
-Select d.name as department , e1.name as employee, e1.salary as Salary
-From Employee e1 join Department d on e1.DepartmentId = d.Id
-Where  (
-    select count(distinct (e2.Salary))
-            from  Employee e2
-            where e2.Salary > e1.Salary
-            and e1.DepartmentId = e2.DepartmentId
-            ) <3
+SELECT d.name AS Department,
+       e.name AS Employee,
+       e.salary AS Salary
+FROM
+(
+    SELECT *,
+           DENSE_RANK() OVER(
+               PARTITION BY departmentId
+               ORDER BY salary DESC
+           ) AS rn
+    FROM Employee
+) e
+JOIN Department d
+ON e.departmentId = d.id
+WHERE e.rn <= 3;
