@@ -1,17 +1,11 @@
-# Write your MySQL query statement below
-select
-(
-SELECT salary AS SecondHighestSalary
-FROM Employee
-WHERE id NOT IN
-(
-    SELECT id
+SELECT
+    CASE
+        WHEN (SELECT COUNT(*) FROM Employee) = 1 THEN NULL
+        ELSE MAX(CASE WHEN t.rnk = 2 THEN t.salary END)
+    END AS SecondHighestSalary
+FROM (
+    SELECT
+        salary,
+        DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
     FROM Employee
-    WHERE salary = (
-        SELECT MAX(salary)
-        FROM Employee
-    )
-)
-order by salary desc
-limit 1
-) as SecondHighestSalary
+) t;
