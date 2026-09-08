@@ -9,30 +9,33 @@ class Solution:
         if not head or not head.next:
             return
 
-        arr = []
+        slow = head
+        fast = head
 
-        temp = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-        while temp:
-            arr.append(temp)
-            temp = temp.next
+        curr = slow.next
+        slow.next = None
 
-        l = 0
-        r = len(arr) - 1
+        prev = None
 
-        while l < r:
+        while curr:
+            after = curr.next
+            curr.next = prev
+            prev = curr
+            curr = after
 
-            leftNode = arr[l]
+        second = prev
+        first = head
 
-            rightNode = arr[r]
+        while second:
+            temp1 = first.next
+            temp2 = second.next
 
-            nextLeft = arr[l + 1]
+            first.next = second
+            second.next = temp1
 
-            leftNode.next = rightNode
-
-            rightNode.next = nextLeft
-
-            l += 1
-            r -= 1
-
-        arr[l].next = None
+            first = temp1
+            second = temp2
