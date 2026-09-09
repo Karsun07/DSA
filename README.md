@@ -1156,4 +1156,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Karsun07/DSA/tree/master/0141-linked-list-cycle) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Karsun07/DSA/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
