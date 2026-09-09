@@ -10,38 +10,47 @@
  */
 class Solution {
 public:
+
     struct cmp {
-        bool operator()(ListNode* a, ListNode* b) const {
-            return a->val > b->val;   // min-heap
-        }
-    };
+    bool operator()(ListNode* a, ListNode* b) {
+        return a->val > b->val;
+    }
+};
 
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        priority_queue<ListNode*, vector<ListNode*>, cmp> p;
 
-        
-        for (auto node : lists) {
-            if (node) p.push(node);
+        priority_queue<ListNode*, vector<ListNode*>, cmp> pq;
+
+        for (auto list : lists) {
+            if (list) {
+                pq.push(list);
+            }
         }
 
-        if (p.empty()) return nullptr;
+        if (pq.empty()) {
+            return nullptr;
+        }
 
-       
-        ListNode* head = p.top();
-        p.pop();
+        ListNode* head = pq.top();
+        pq.pop();
 
-        ListNode* temp = head;
-        if (temp->next) p.push(temp->next);
+        ListNode* tail = head;
 
-      
-        while (!p.empty()) {
-            ListNode* x = p.top();
-            p.pop();
+        if (head->next) {
+            pq.push(head->next);
+        }
 
-            temp->next = x;
-            temp = temp->next;
+        while (!pq.empty()) {
 
-            if (x->next) p.push(x->next);
+            ListNode* temp = pq.top();
+            pq.pop();
+
+            tail->next = temp;
+            tail = temp;
+
+            if (temp->next) {
+                pq.push(temp->next);
+            }
         }
 
         return head;
