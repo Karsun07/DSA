@@ -655,6 +655,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0437-path-sum-iii](https://github.com/Karsun07/DSA/tree/master/0437-path-sum-iii) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Karsun07/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -700,6 +701,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Karsun07/DSA/tree/master/0547-number-of-provinces) |
+| [0572-subtree-of-another-tree](https://github.com/Karsun07/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0669-trim-a-binary-search-tree) |
@@ -820,6 +822,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0437-path-sum-iii](https://github.com/Karsun07/DSA/tree/master/0437-path-sum-iii) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Karsun07/DSA/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/Karsun07/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0652-find-duplicate-subtrees](https://github.com/Karsun07/DSA/tree/master/0652-find-duplicate-subtrees) |
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Karsun07/DSA/tree/master/0662-maximum-width-of-binary-tree) |
@@ -1039,6 +1042,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/Karsun07/DSA/tree/master/0572-subtree-of-another-tree) |
 | [0706-design-hashmap](https://github.com/Karsun07/DSA/tree/master/0706-design-hashmap) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Karsun07/DSA/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Rolling Hash
@@ -1164,4 +1168,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Karsun07/DSA/tree/master/0023-merge-k-sorted-lists) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/Karsun07/DSA/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
