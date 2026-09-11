@@ -1,37 +1,34 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        pq=[]
-        count=0
-
-        for list in lists:
-            if list:
-                heapq.heappush(pq,(list.val,count,list))
-                count+=1
-        
-        if not pq:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]: 
+        if not lists or len(lists) == 0:
             return None
-
-        dummy=ListNode(0)
-        tail=dummy
-
-        while pq:
-            _,_,node=heapq.heappop(pq)
-
-            tail.next=node
-            tail=tail.next
-
-            if node.next:
-                heapq.heappush(pq,(node.next.val,count,node.next))
-                count+=1
-
-        return dummy.next
-
-
         
-
+        while len(lists) > 1:
+            temp = []
+            for i in range(0, len(lists), 2):
+                l1 = lists[i]
+                l2 = lists[i+1] if i + 1 < len(lists) else None
+                temp.append(self.merge_lists(l1, l2))
+            lists = temp
         
+        return lists[0]
+    
+    def merge_lists(self, l1, l2):
+        node = ListNode()
+        ans = node
+        
+        while l1 and l2:
+            if l1.val > l2.val:
+                node.next = l2
+                l2 = l2.next
+            else:
+                node.next = l1
+                l1 = l1.next
+            node = node.next
+        
+        if l1:
+            node.next = l1
+        else:
+            node.next = l2
+        
+        return ans.next
