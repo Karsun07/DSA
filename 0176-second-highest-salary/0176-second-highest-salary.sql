@@ -1,7 +1,7 @@
-SELECT MAX(salary) AS SecondHighestSalary
-FROM (
-    SELECT salary,
-           DENSE_RANK() OVER (ORDER BY salary DESC) AS rnk
-    FROM Employee
+select max(t.salary) as SecondHighestSalary
+from (
+    select salary,
+dense_rank() over(order by salary) as rnk
+from Employee
 ) t
-WHERE t.rnk = 2;
+where t.rnk=2
