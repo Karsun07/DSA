@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/Karsun07/DSA/tree/master/0746-min-cost-climbing-stairs) |
 | [0830-largest-triangle-area](https://github.com/Karsun07/DSA/tree/master/0830-largest-triangle-area) |
+| [0835-image-overlap](https://github.com/Karsun07/DSA/tree/master/0835-image-overlap) |
 | [0918-maximum-sum-circular-subarray](https://github.com/Karsun07/DSA/tree/master/0918-maximum-sum-circular-subarray) |
 | [0931-minimum-falling-path-sum](https://github.com/Karsun07/DSA/tree/master/0931-minimum-falling-path-sum) |
 | [0944-delete-columns-to-make-sorted](https://github.com/Karsun07/DSA/tree/master/0944-delete-columns-to-make-sorted) |
@@ -966,6 +967,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Karsun07/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
 | [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
+| [0835-image-overlap](https://github.com/Karsun07/DSA/tree/master/0835-image-overlap) |
 | [0931-minimum-falling-path-sum](https://github.com/Karsun07/DSA/tree/master/0931-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/Karsun07/DSA/tree/master/0994-rotting-oranges) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Karsun07/DSA/tree/master/1277-count-square-submatrices-with-all-ones) |
