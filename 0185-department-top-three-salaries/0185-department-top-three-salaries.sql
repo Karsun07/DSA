@@ -1,15 +1,13 @@
-SELECT d.name AS Department,
-       e.name AS Employee,
-       e.salary AS Salary
-FROM
-(
+SELECT d.name as Department, t.name as Employee, t.salary
+FROM (
     SELECT *,
-           DENSE_RANK() OVER(
+           DENSE_RANK() OVER (
                PARTITION BY departmentId
                ORDER BY salary DESC
-           ) AS rn
+           ) AS rnk
     FROM Employee
-) e
+) t
 JOIN Department d
-ON e.departmentId = d.id
-WHERE e.rn <= 3;
+    ON t.departmentId = d.id
+WHERE t.rnk < 4
+ORDER BY t.departmentId;
