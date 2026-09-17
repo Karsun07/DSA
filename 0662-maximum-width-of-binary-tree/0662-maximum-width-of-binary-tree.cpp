@@ -23,37 +23,29 @@ public:
 
         while (!q.empty()) {
 
-            int sz = q.size();
+            int n = q.size();
 
-            // First position of this level
-            unsigned long long first = q.front().second;
+            unsigned long long start = q.front().second;
+            unsigned long long end = start;
 
-            unsigned long long firstPos = 0;
-            unsigned long long lastPos = 0;
+            while (n--) {
 
-            while (sz--) {
-
-                TreeNode* node = q.front().first;
-                unsigned long long pos = q.front().second;
-
+                auto [node, idx] = q.front();
                 q.pop();
 
-                // Normalize position
-                pos -= first;
-
-                if (sz == 0)
-                    lastPos = pos;
+                idx -= start;
+                end = idx;
 
                 if (node->left)
-                    q.push({node->left, 2 * pos});
+                    q.push({node->left, 2 * idx});
 
                 if (node->right)
-                    q.push({node->right, 2 * pos + 1});
+                    q.push({node->right, 2 * idx + 1});
             }
 
-            ans = max(ans, lastPos + 1);
+            ans = max(ans, end + 1);
         }
 
-        return (int)ans;
+        return ans;
     }
 };
