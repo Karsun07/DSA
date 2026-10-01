@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/Karsun07/DSA/tree/master/0205-isomorphic-strings) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Karsun07/DSA/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Karsun07/DSA/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Karsun07/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/Karsun07/DSA/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/Karsun07/DSA/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Karsun07/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Karsun07/DSA/tree/master/0239-sliding-window-maximum) |
@@ -623,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Karsun07/DSA/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Karsun07/DSA/tree/master/0078-subsets) |
 | [0131-palindrome-partitioning](https://github.com/Karsun07/DSA/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/Karsun07/DSA/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/Karsun07/DSA/tree/master/0494-target-sum) |
 | [0797-all-paths-from-source-to-target](https://github.com/Karsun07/DSA/tree/master/0797-all-paths-from-source-to-target) |
@@ -876,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Karsun07/DSA/tree/master/0212-word-search-ii) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 ## Radix Sort
 |  |
@@ -979,6 +983,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Karsun07/DSA/tree/master/0073-set-matrix-zeroes) |
 | [0130-surrounded-regions](https://github.com/Karsun07/DSA/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Karsun07/DSA/tree/master/0212-word-search-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Karsun07/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Karsun07/DSA/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
