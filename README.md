@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/Karsun07/DSA/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
 | [0205-isomorphic-strings](https://github.com/Karsun07/DSA/tree/master/0205-isomorphic-strings) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0257-binary-tree-paths](https://github.com/Karsun07/DSA/tree/master/0257-binary-tree-paths) |
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0225-implement-stack-using-queues](https://github.com/Karsun07/DSA/tree/master/0225-implement-stack-using-queues) |
 | [0295-find-median-from-data-stream](https://github.com/Karsun07/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0706-design-hashmap](https://github.com/Karsun07/DSA/tree/master/0706-design-hashmap) |
@@ -700,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Karsun07/DSA/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Karsun07/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Karsun07/DSA/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/Karsun07/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Karsun07/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -872,6 +875,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Karsun07/DSA/tree/master/0139-word-break) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/Karsun07/DSA/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 ## Radix Sort
 |  |
