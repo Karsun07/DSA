@@ -271,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2176-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2176-parallel-courses-iii) |
 | [2195-time-needed-to-buy-tickets](https://github.com/Karsun07/DSA/tree/master/2195-time-needed-to-buy-tickets) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Karsun07/DSA/tree/master/2307-replace-non-coprime-numbers-in-array) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/Karsun07/DSA/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/Karsun07/DSA/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2536-determine-if-two-events-have-conflict](https://github.com/Karsun07/DSA/tree/master/2536-determine-if-two-events-have-conflict) |
 | [2536-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2536-increment-submatrices-by-one) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1834-single-threaded-cpu) |
 | [1962-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1962-single-threaded-cpu) |
 | [2161-stock-price-fluctuation](https://github.com/Karsun07/DSA/tree/master/2161-stock-price-fluctuation) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/Karsun07/DSA/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/Karsun07/DSA/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Karsun07/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Monotonic Queue
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Karsun07/DSA/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1762-furthest-building-you-can-reach](https://github.com/Karsun07/DSA/tree/master/1762-furthest-building-you-can-reach) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Karsun07/DSA/tree/master/1834-minimum-number-of-people-to-teach) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/Karsun07/DSA/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Karsun07/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Karsun07/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -507,6 +510,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/Karsun07/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1834-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1834-single-threaded-cpu) |
 | [1962-single-threaded-cpu](https://github.com/Karsun07/DSA/tree/master/1962-single-threaded-cpu) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/Karsun07/DSA/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Karsun07/DSA/tree/master/3074-apple-redistribution-into-boxes) |
@@ -812,6 +816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
 | [1631-path-with-minimum-effort](https://github.com/Karsun07/DSA/tree/master/1631-path-with-minimum-effort) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/Karsun07/DSA/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/Karsun07/DSA/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
