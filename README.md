@@ -296,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Karsun07/DSA/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Karsun07/DSA/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Karsun07/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Karsun07/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -465,6 +466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Karsun07/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Karsun07/DSA/tree/master/3074-apple-redistribution-into-boxes) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Karsun07/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Karsun07/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Data Stream
 |  |
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/Karsun07/DSA/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3531-count-covered-buildings](https://github.com/Karsun07/DSA/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/Karsun07/DSA/tree/master/3606-coupon-code-validator) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/Karsun07/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Hash Table
 |  |
 | ------- |
