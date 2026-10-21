@@ -1,42 +1,33 @@
 class H2O {
-private:
+public:
+    int hcount;
     mutex mtx;
     condition_variable cv;
-    int hydrogen_count = 0;
-
-public:
-    H2O() {}
+    H2O() {
+        hcount=0;
+    }
 
     void hydrogen(function<void()> releaseHydrogen) {
-        unique_lock<mutex> lock(mtx);
-
-        // Wait until there are less than 2 hydrogens
-        while (hydrogen_count >= 2) 
-        {
-            // Mutex unlocked & thread enters waiting state
-            cv.wait(lock);
-        }
-
-        hydrogen_count++;
-        releaseHydrogen();
         
-        // If two hydrogen atoms are ready, wake up oxygen
-        cv.notify_one();
+        unique_lock<mutex>lock(mtx);
+        cv.wait(lock,[this]{
+            return hcount<2;
+        });
+        // releaseHydrogen() outputs "H". Do not change or remove this line.
+        releaseHydrogen();
+        hcount++;
+        cv.notify_all();
     }
 
     void oxygen(function<void()> releaseOxygen) {
-        unique_lock<mutex> lock(mtx);
-
-        // Wait until exactly 2 hydrogens are available
-        while (hydrogen_count < 2) {
-            cv.wait(lock);
-        }
-
+        
+        unique_lock<mutex>lock(mtx);
+        cv.wait(lock,[this]{
+            return hcount==2;
+        });
+        // releaseOxygen() outputs "O". Do not change or remove this line.
         releaseOxygen();
-
-        // Reset for the next water molecule
-        hydrogen_count = 0;
-        // Notify waiting hydrogen threads
-        cv.notify_all(); 
+        hcount=0;
+        cv.notify_all();
     }
 };
