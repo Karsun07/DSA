@@ -1,61 +1,79 @@
 class ZeroEvenOdd {
 private:
     int n;
+    int x;
+    bool zeroPrint;
     mutex mtx;
     condition_variable cv;
-    int turn = 0; // 0 = zero, 1 = odd, 2 = even
 
 public:
     ZeroEvenOdd(int n) {
         this->n = n;
+        x = 1;
+        zeroPrint = false;
     }
 
-    // printNumber(x) outputs "x", where x is an integer.
     void zero(function<void(int)> printNumber) {
-        for (int i = 1; i <= n; i++) {
+        while (true) {
             unique_lock<mutex> lock(mtx);
 
-            cv.wait(lock, [this]() {
-                return turn == 0;
+            cv.wait(lock, [this] {
+                return !zeroPrint || x > n;
             });
+
+            if (x > n) {
+                cv.notify_all();
+                return;
+            }
 
             printNumber(0);
 
-            if (i % 2 == 1)
-                turn = 1; // odd's turn
-            else
-                turn = 2; // even's turn
+            zeroPrint = true;
 
             cv.notify_all();
         }
     }
 
     void even(function<void(int)> printNumber) {
-        for (int i = 2; i <= n; i += 2) {
+        while (true) {
             unique_lock<mutex> lock(mtx);
 
-            cv.wait(lock, [this]() {
-                return turn == 2;
+            cv.wait(lock, [this] {
+                return x > n || (zeroPrint && x % 2 == 0);
             });
 
-            printNumber(i);
+            if (x > n) {
+                cv.notify_all();
+                return;
+            }
 
-            turn = 0; // zero's turn
+            printNumber(x);
+
+            x++;
+            zeroPrint = false;
+
             cv.notify_all();
         }
     }
 
     void odd(function<void(int)> printNumber) {
-        for (int i = 1; i <= n; i += 2) {
+        while (true) {
             unique_lock<mutex> lock(mtx);
 
-            cv.wait(lock, [this]() {
-                return turn == 1;
+            cv.wait(lock, [this] {
+                return x > n || (zeroPrint && x % 2 == 1);
             });
 
-            printNumber(i);
+            if (x > n) {
+                cv.notify_all();
+                return;
+            }
 
-            turn = 0; // zero's turn
+            printNumber(x);
+
+            x++;
+            zeroPrint = false;
+
             cv.notify_all();
         }
     }
