@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Karsun07/DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3606-coupon-code-validator](https://github.com/Karsun07/DSA/tree/master/3606-coupon-code-validator) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/Karsun07/DSA/tree/master/3863-minimum-operations-to-sort-a-string) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Karsun07/DSA/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Dynamic Programming
 |  |
