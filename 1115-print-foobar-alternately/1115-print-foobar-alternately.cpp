@@ -1,59 +1,40 @@
 class FooBar {
 private:
     int n;
-    bool isFooPrinted;
-
-    condition_variable cv;
     mutex mtx;
-
+    condition_variable cv;
+    bool fooPrinted;
 public:
-
     FooBar(int n) {
         this->n = n;
-        isFooPrinted = false;
-    }
+        fooPrinted=false;
+    } 
 
     void foo(function<void()> printFoo) {
-
+        
         for (int i = 0; i < n; i++) {
-
-            unique_lock<mutex> lock(mtx);
-
-            cv.wait(lock, [this]{
-                return !isFooPrinted;
+            
+            unique_lock<mutex>lock(mtx);
+            cv.wait(lock,[this]{
+                return !fooPrinted;
             });
-
-
-            // printFoo() outputs "foo"
-            printFoo();
-
-
-            isFooPrinted = true;
-
-
+        	// printFoo() outputs "foo". Do not change or remove this line.
+        	printFoo();
+            fooPrinted=true;
             cv.notify_all();
         }
     }
 
-
     void bar(function<void()> printBar) {
-
+        
         for (int i = 0; i < n; i++) {
-
-            unique_lock<mutex> lock(mtx);
-
-            cv.wait(lock, [this]{
-                return isFooPrinted;
+            unique_lock<mutex>lock(mtx);
+            cv.wait(lock,[this]{
+                return fooPrinted;
             });
-
-
-            // printBar() outputs "bar"
-            printBar();
-
-
-            isFooPrinted = false;
-
-
+        	// printBar() outputs "bar". Do not change or remove this line.
+        	printBar();
+            fooPrinted=false;
             cv.notify_all();
         }
     }
