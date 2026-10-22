@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Karsun07/DSA/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/Karsun07/DSA/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/Karsun07/DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Karsun07/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/Karsun07/DSA/tree/master/0692-top-k-frequent-words) |
 | [0721-accounts-merge](https://github.com/Karsun07/DSA/tree/master/0721-accounts-merge) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Karsun07/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Karsun07/DSA/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Karsun07/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Karsun07/DSA/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Karsun07/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Karsun07/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Karsun07/DSA/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/Karsun07/DSA/tree/master/0741-cherry-pickup) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/Karsun07/DSA/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Karsun07/DSA/tree/master/0402-remove-k-digits) |
 | [0654-maximum-binary-tree](https://github.com/Karsun07/DSA/tree/master/0654-maximum-binary-tree) |
+| [0678-valid-parenthesis-string](https://github.com/Karsun07/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Karsun07/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Karsun07/DSA/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/Karsun07/DSA/tree/master/1305-number-of-visible-people-in-a-queue) |
@@ -457,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Karsun07/DSA/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/Karsun07/DSA/tree/master/0630-course-schedule-iii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/Karsun07/DSA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0678-valid-parenthesis-string](https://github.com/Karsun07/DSA/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Karsun07/DSA/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Karsun07/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1382-balance-a-binary-search-tree](https://github.com/Karsun07/DSA/tree/master/1382-balance-a-binary-search-tree) |
@@ -1249,6 +1253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0678-valid-parenthesis-string](https://github.com/Karsun07/DSA/tree/master/0678-valid-parenthesis-string) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Karsun07/DSA/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 ## Fermat's Little Theorem
 |  |
