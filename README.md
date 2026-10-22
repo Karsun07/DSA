@@ -304,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Karsun07/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/Karsun07/DSA/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Monotonic Stack
 |  |
 | ------- |
