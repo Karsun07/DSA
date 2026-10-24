@@ -480,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Karsun07/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Karsun07/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3074-apple-redistribution-into-boxes](https://github.com/Karsun07/DSA/tree/master/3074-apple-redistribution-into-boxes) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Karsun07/DSA/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Karsun07/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Karsun07/DSA/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Data Stream
@@ -628,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/Karsun07/DSA/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Karsun07/DSA/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Karsun07/DSA/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/Karsun07/DSA/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3830-find-closest-person](https://github.com/Karsun07/DSA/tree/master/3830-find-closest-person) |
 ## Recursion
 |  |
