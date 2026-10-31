@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Karsun07/DSA/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2176-parallel-courses-iii](https://github.com/Karsun07/DSA/tree/master/2176-parallel-courses-iii) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Karsun07/DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [3665-twisted-mirror-path-count](https://github.com/Karsun07/DSA/tree/master/3665-twisted-mirror-path-count) |
 ## Stack
 |  |
 | ------- |
@@ -309,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Karsun07/DSA/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Karsun07/DSA/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/Karsun07/DSA/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3665-twisted-mirror-path-count](https://github.com/Karsun07/DSA/tree/master/3665-twisted-mirror-path-count) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/Karsun07/DSA/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/Karsun07/DSA/tree/master/3827-implement-router) |
@@ -1045,6 +1047,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1937-maximum-number-of-points-with-cost](https://github.com/Karsun07/DSA/tree/master/1937-maximum-number-of-points-with-cost) |
 | [2536-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2536-increment-submatrices-by-one) |
 | [2625-increment-submatrices-by-one](https://github.com/Karsun07/DSA/tree/master/2625-increment-submatrices-by-one) |
+| [3665-twisted-mirror-path-count](https://github.com/Karsun07/DSA/tree/master/3665-twisted-mirror-path-count) |
 | [3797-design-spreadsheet](https://github.com/Karsun07/DSA/tree/master/3797-design-spreadsheet) |
 ## Segment Tree
 |  |
