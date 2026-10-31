@@ -1,54 +1,36 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        
-        vector<vector<pair<int,int>>> adj(n);
-
-        for(auto it : flights){
-            int u = it[0];
-            int v = it[1];
-            int wt = it[2];
-
-            adj[u].push_back({v, wt});
+        vector<vector<pair<int, int>>> adj(n);
+        for(auto flight : flights){
+            adj[flight[0]].push_back({flight[1], flight[2]});
         }
-
-        queue<pair<int,pair<int,int>>> q;
-        // {stops, {node, dist}}
-
-        q.push({0, {src, 0}});
-
-        vector<int> dist(n, INT_MAX);
-        dist[src] = 0;
-
-        while(!q.empty()) {
-
-            auto x = q.front();
-            q.pop();
-
-            int stops = x.first;
-            int node = x.second.first;
-            int d = x.second.second;
-
-            if(stops > k)
-                continue;
-
-            for(auto it : adj[node]) {
-
-                int v = it.first;
-                int wt = it.second;
-
-                if(d + wt < dist[v]) {
-
-                    dist[v] = d + wt;
-
-                    q.push({
-                        stops + 1,
-                        {v, dist[v]}
-                    });
+       
+     
+        vector<vector<int>>dist(n,vector<int>(k+2,INT_MAX));
+        // k+1 nodes including dst=>size=>k+2
+        // {cost,{stops,node}}
+        
+        priority_queue<pair<int,pair<int,int>>,vector<pair<int,pair<int,int>>>,greater<pair<int,pair<int,int>>>>pq;
+        dist[src][0]=0;
+        pq.push({0,{0,src}});
+        while(!pq.empty()){
+            auto x=pq.top();
+            pq.pop();
+            int cost=x.first;
+            int stops=x.second.first;
+            int node=x.second.second;
+            if(node==dst) return cost;
+            if(stops>k) continue;
+            for(auto &it:adj[node]){
+                int nb=it.first;
+                int price=it.second;
+                if(cost+price<dist[nb][stops+1]){
+                    dist[nb][stops+1]=cost+price;
+                    pq.push({dist[nb][stops+1],{stops+1,nb}});
                 }
             }
         }
-
-        return dist[dst] == INT_MAX ? -1 : dist[dst];
+        return -1;
     }
 };
