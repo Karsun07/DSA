@@ -15,8 +15,7 @@ select product_id ,10
 from Products
 where product_id not in
 (
-    select product_id
+    select distinct product_id
     from Products
     where change_date<='2019-08-16'
-    group by product_id
 )
