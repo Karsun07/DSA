@@ -1,4 +1,5 @@
 import pandas as pd
+from decimal import Decimal, ROUND_HALF_UP
 
 def queries_stats(queries: pd.DataFrame) -> pd.DataFrame:
     
@@ -15,9 +16,17 @@ def queries_stats(queries: pd.DataFrame) -> pd.DataFrame:
         "rating":"count"
     }).reset_index()
 
-    df["quality"]=round(df["quality"],2)
+    df["quality"]=df["quality"].apply(
+        lambda x: float(Decimal(str(x)).quantize(
+            Decimal("0.01"), rounding=ROUND_HALF_UP
+        ))
+    )
     df["poor_query_percentage"]=df["poor"]/df["rating"]
-    df["poor_query_percentage"]=round(df["poor_query_percentage"]*100,2)
+    df["poor_query_percentage"]=(df["poor_query_percentage"]*100).apply(
+        lambda x: float(Decimal(str(x)).quantize(
+            Decimal("0.01"), rounding=ROUND_HALF_UP
+        ))
+    )
 
     return df[["query_name","quality","poor_query_percentage"]]
 
