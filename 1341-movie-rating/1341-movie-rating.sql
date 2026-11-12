@@ -1,26 +1,22 @@
-(select u.name as results
-from MovieRating mr
-join Users u
-on mr.user_id=u.user_id
-group by mr.user_id
-order by count(mr.rating) desc, u.name
-limit 1)
-
-
-union all
-
-(SELECT m.title AS results
-FROM MovieRating mr
-JOIN Movies m
-    ON mr.movie_id = m.movie_id
-WHERE LEFT(mr.created_at, 7) = '2020-02'
-GROUP BY mr.movie_id, m.title
-ORDER BY AVG(mr.rating) DESC, m.title ASC
-LIMIT 1)
-
-
-
-
-
+# Write your MySQL query statement below
+( select u.name as results
+ from MovieRating mr
+ join Users u
+ on mr.user_id=u.user_id
+ group by mr.user_id
+ order by count(*) desc,u.name
+ limit 1
+ )
+ union all
+(
+ select m.title as results
+ from MovieRating mr
+ join Movies m
+ on mr.movie_id=m.movie_id
+ where mr.created_at >='2020-02-01' and mr.created_at<='2020-02-29'
+ group by mr.movie_id
+ order by avg(mr.rating) desc,m.title
+ limit 1
+)
 
 
